@@ -1,0 +1,5 @@
+
+function initializeplonethemeplonetraining(){
+
+}
+jQuery(initializeplonethemeplonetraining);
