@@ -1599,17 +1599,17 @@ img{
 }
 .float3{
     float: left;
-    width:31.8%;
+    width:31.5%;
     margin: 1% 0.5%;
 }
-.towcol1{
-    border:1px solid red; 
- }
+.towcol1,
 .towcol2{
     border:1px solid #a4c5ce;
+    padding:3px;
 }
 .towcol3{
      border:1px solid #a4c5ce;
+     padding:3px;
 }
 .clearboth{
      clear: both;
