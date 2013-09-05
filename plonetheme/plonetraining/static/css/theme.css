@@ -1547,6 +1547,8 @@
 }
 #portal-logo img {
   width: 100%;
+  margin-top: 12%;
+  padding-left: 10px;
 }
 img{
     max-width:100%;
@@ -1587,6 +1589,24 @@ img{
       margin-left:30px;
   }
 }
+body{
+    background: url("++theme++plonetheme.plonetraining/images/bg.jpg") repeat-x scroll left top #99A0A8 !important;
+
+}
+.container{
+    background-color: #FFFFFF;
+}
+
+a.managePortletsFallback {
+    margin-left: 3%;
+}
+
+#portal-footer {
+    border-top: 2px solid #A4C5CE;
+    border-bottom: 2px solid #A4C5CE;
+    background: none repeat scroll 0 0 #FFFFFF;
+    padding-top:5px;
+}
 /*----template ckeditor css----*/
 .contentcol{
     margin: 0;
@@ -1594,12 +1614,12 @@ img{
 }
 .float {
     float: left;
-    width: 48%;
+    width: 47%;
     margin: 1% 0.5%;
 }
 .float3{
     float: left;
-    width:31.5%;
+    width:30.5%;
     margin: 1% 0.5%;
 }
 .towcol1,
