@@ -10,7 +10,7 @@
     <before css:theme-children="head" css:content="base" />
     
     <copy attributes="lang" css:content='html' css:theme='html'/>
-
+    <theme href="theme-two-left.html" css:if-content=".template-atct_edit"/>
     <theme href="theme-three.html" css:if-content=".template-manage-portlets"/>
     <theme href="theme-three.html" if="$have_both_portlets"/>
     <theme href="theme-two-left.html" if="$have_left_portlets"/>
@@ -48,7 +48,9 @@
 <!-- CONTENT -->
     <append css:content-children="#portal-column-content" css:theme="#portal-column-content"/>
     <append css:content-children="#portal-column-one" css:theme="#portal-column-one" />
+    <!--drop css:content="#portal-column-two" css:if-content="#cke_contents_text" /-->
     <append css:content-children="#portal-column-two" css:theme="#portal-column-two" />
+    
 
 <!-- FOOTER -->
     <append css:content-children="#portal-footer" css:theme="#portal-footer" />

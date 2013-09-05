@@ -1611,6 +1611,7 @@ a.managePortletsFallback {
 .contentcol{
     margin: 0;
     padding: 0;
+    margin-top:12px;
 }
 .float {
     float: left;
@@ -1623,7 +1624,8 @@ a.managePortletsFallback {
     margin: 1% 0.5%;
 }
 .towcol1,
-.towcol2{
+.towcol2,
+.colonne{
     border:1px solid #a4c5ce;
     padding:3px;
 }
@@ -1636,5 +1638,10 @@ a.managePortletsFallback {
 }
 .mytest{
      color:red;
+}
+
+body.cke_show_borders{
+
+  background: url("") repeat-x scroll left top #FFFFFF !important;
 }
 
