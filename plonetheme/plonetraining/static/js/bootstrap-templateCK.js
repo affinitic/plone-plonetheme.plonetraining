@@ -8,22 +8,16 @@ CKEDITOR.addTemplates( 'default',
 	templates :
 		[
 			{
-				title: 'My Template 1',
-				image: 'template1.gif',
-				description: 'Description of My Template 1.',
-				html:
-					'<h2>Template 1</h2>' +
-					'<p><img src="/logo.png" style="float:left" />Type your text here.</p>'
-			},
-			{
-				title: 'Template 1col (cadre)',
+				title: 'Template 1 colonne',
+				image: '++theme++plonetheme.plonetraining/images/templateCk11.gif',
 				html:
                     '<div class="row-fluid contentcol">' +
 				    '<div class="span12 colonne"><h3>title col1</h3>col1</div>' +
                     '</div>'
 			},
 			{
-				title: 'Template 3col',
+				title: 'Template 3 colonnes',
+				image: '++theme++plonetheme.plonetraining/images/template3col.gif',
 				html:
 					'<div class="row-fluid contentcol">' +
                     '<div class="span4 colonne"><h3>title col1</h3>col1</div>' +
@@ -33,7 +27,8 @@ CKEDITOR.addTemplates( 'default',
 
 			},
 			{
-				title: 'Template 2col',
+				title: 'Template 2 colonnes',
+				image: '++theme++plonetheme.plonetraining/images/template12.gif',
 				html:
                     '<div class="row-fluid contentcol">' +
 				    '<div class="span6 colonne"><h3>title col1</h3>col1</div>' +
@@ -41,7 +36,8 @@ CKEDITOR.addTemplates( 'default',
                     '</div>'
 			},
 			{
-				title: 'Template 2col 1/3-2/3',
+				title: 'Template 2 colonnes 1/3-2/3',
+				image: '++theme++plonetheme.plonetraining/images/template13-23.gif',
 				html:
                     '<div class="row-fluid contentcol">' +
 				    '<div class="span4 colonne"><h3>title col1</h3>col1</div>' +
@@ -49,7 +45,8 @@ CKEDITOR.addTemplates( 'default',
                     '</div>'
 			},
 			{
-				title: 'Template 2col 2/3-1/3',
+				title: 'Template 2 colonnes 2/3-1/3',
+				image: '++theme++plonetheme.plonetraining/images/template23-13.gif',
 				html:
                     '<div class="row-fluid contentcol">' +
 				    '<div class="span8 colonne"><h3>title col1</h3>col1</div>' +
