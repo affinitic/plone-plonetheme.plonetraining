@@ -1559,6 +1559,37 @@ img{
     margin-left:20px;
     padding:0;
 } 
+.slideroverlay {
+    background: none repeat scroll 0 0 rgba(221, 221, 221, 0.5);
+}
+ul.slider-list li:before {
+    content: "";
+}
+dl.portlet ul.navTreeLevel0 > .navTreeItem {
+  line-height: 1.5em;
+}
+dl.portlet ul.navTreeLevel1 .navTreeItem {
+    line-height: 1.2em;
+    padding-left: 0.5em;
+}
+.navTreeLevel1{
+  margin-left: -1.2em;
+  width: 100%;
+  border-bottom: 2px solid #A4C5CE;
+}
+.navTreeLevel2{
+  border-bottom: 1px solid #A4C5CE;
+}
+dl.portletVideoPortlet dd.portletItem{
+  padding:0;
+  margin-left: 0;
+}
+#slider .slider-list li p{
+  margin:3px;
+}
+#content #slider li:before {
+    content: "" !important;
+}
 /*****************
  0 -> 480
  *****************/
